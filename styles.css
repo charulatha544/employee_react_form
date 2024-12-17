@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   }
+   .App {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   form div {
+    margin-bottom: 10px;
+   }
+   label {
+    display: block;
+    margin-bottom: 5px;
+   }
+   input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+   }
+   button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   button[type="reset"] {
+    background-color: #f44336;
+   }
+   button:hover {
+    opacity: 0.8;
+   }
